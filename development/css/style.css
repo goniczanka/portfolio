@@ -94,62 +94,14 @@ body {
   text-align: center;
 }
 
-/* line 130, ../../components/sass/style.scss */
-.fade {
-  font-style: normal;
-}
-
-/* line 135, ../../components/sass/style.scss */
-.fadeLate {
-  animation: mymove 0.5s;
-}
-
-@keyframes mymove {
-  0% {
-    text-shadow: 0 0 1px #82f5a7, 0 0 5px #82f5a7;
-    color: #82f5a7;
-  }
-  48% {
-    text-shadow: 0 0 2px #82f5a7, 0 0 6px #82f5a7;
-    color: #82f5a7;
-  }
-  50% {
-    text-shadow: 0 0 2px #394C5E, 0 0 2px #394C5E;
-    color: #394C5E;
-  }
-  52% {
-    text-shadow: 0 0 2px #82f5a7, 0 0 6px #82f5a7;
-    color: #82f5a7;
-  }
-  54% {
-    text-shadow: 0 0 2px #82f5a7, 0 0 6px #82f5a7;
-    color: #82f5a7;
-  }
-  56% {
-    text-shadow: 0 0 2px #394C5E, 0 0 2px #394C5E;
-    color: #394C5E;
-  }
-  78% {
-    text-shadow: 0 0 2px #82f5a7, 0 0 6px #82f5a7;
-    color: #82f5a7;
-  }
-  80% {
-    text-shadow: 0 0 2px #394C5E, 0 0 2px #394C5E;
-    color: #394C5E;
-  }
-  100% {
-    text-shadow: 0 0 15px #82f5a7, 0 0 5px #82f5a7;
-    color: #82f5a7;
-  }
-}
-/* line 157, ../../components/sass/style.scss */
+/* line 131, ../../components/sass/style.scss */
 .desk {
   overflow-x: hidden;
   margin: 0 auto;
   margin-left: -10px;
 }
 
-/* line 163, ../../components/sass/style.scss */
+/* line 137, ../../components/sass/style.scss */
 .desk-wrapper {
   width: 2000px;
   margin: 0 auto;

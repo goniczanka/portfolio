@@ -34,16 +34,3 @@ function checkTime(i) {
     return i;
 }
 document.addEventListener("load", startTime());
-
-setTimeout(function(){
-	document.querySelector(".fade").classList.remove("fadeLate");
-	document.querySelector(".fade").classList.add("fadeLate");
-	console.log("a");
-
-}, 1500);
-
-setTimeout(function(){
-	document.querySelector(".fade").classList.remove("fadeLate");
-	document.querySelector(".fade").classList.add("fadeLate");
-	console.log("a");
-}, 5000);

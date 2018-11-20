@@ -126,32 +126,6 @@ text-align: center;
 		}
 	}
 }
-
-.fade {
-	font-style: normal;
-	// animation: mymove 0.5s ;
-}
-
-.fadeLate {
-	animation: mymove 0.5s ;
-}
-
-@keyframes mymove {
-    0%   {text-shadow: 0 0 1px $neon-green, 0 0 5px $neon-green; color: $neon-green}
-		48%   {text-shadow: 0 0 2px $neon-green, 0 0 6px $neon-green; color: $neon-green}
-    50% {text-shadow: 0 0 2px #394C5E, 0 0 2px #394C5E; color: #394C5E}
-		52%   {text-shadow: 0 0 2px $neon-green, 0 0 6px $neon-green; color: $neon-green}
-
-		54%   {text-shadow: 0 0 2px $neon-green, 0 0 6px $neon-green; color: $neon-green}
-		56% {text-shadow: 0 0 2px #394C5E, 0 0 2px #394C5E; color: #394C5E}
-
-		78%   {text-shadow: 0 0 2px $neon-green, 0 0 6px $neon-green; color: $neon-green}
-    80% {text-shadow: 0 0 2px #394C5E, 0 0 2px #394C5E; color: #394C5E}
-
-		100% {text-shadow: 0 0 15px $neon-green, 0 0 5px $neon-green; color: $neon-green}
-}
-
-
 // ======================== desk
 
 .desk {
